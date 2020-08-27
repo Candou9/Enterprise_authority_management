@@ -335,7 +335,7 @@
   <data name="tsbAddStudent.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFySURBVDhPhZNJSwNBFIT7Z3tQguLFCEbE7QeIXhRvxl2J
+        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAFySURBVDhPhZNJSwNBFIT7Z3tQguLFCEbE7QeIXhRvxl2J
         WcyiSBZDNjM6WcxkdWJwuZRTk0yjTjMZqENPfVV0w3siZ4yQrBrY3jvEQmADM4t+T5EhywyzIlasw7e8
         hqOLEPRmG4Phh6fIkGUmWtAhtnYPcBqKotE1Ual3Uap1PEWG7NnNLTZ39iHm/Kt4fu0hpxnIPLX+SAhh
         6///nHV9vdXH7FIAgu+qtU2kCg2XnAKVxwyzdoHWekMkq7vkFKg8ZmRBpdHH9YPmklOg8piRBaVaF+ep
@@ -347,7 +347,7 @@
   <data name="toolStripButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFYSURBVFhH1ZBRksMgDENz9BwtN2ujgIgwNpCG/VjNvFGL
+        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAFYSURBVFhH1ZBRksMgDENz9BwtN2ujgIgwNpCG/VjNvFGL
         bdmTbYE+D1gqb8Esr+WFPmVK3uBKQnnNf4Err/EVx3F8IDiQWiMtLkGX03OtUTW4Ci6lLz8gCL/gu3qu
         NaoGZ7HhPCBYqjTymoZAuowH8D8dT1o/acTCNAxXj97VQc6oVIJH2NBR3fPcW6kK8eCwdZTgDOb7yHNu
         ER8aZsLoADP8b531TCUtVHB41jEzqp80KgstvbDIoznWThqVhREMiVzCu325p1EZ7sGQyNED75GzXJVF
@@ -359,7 +359,7 @@
   <data name="tsbScoreAnalysis.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACUSURBVDhPtZHbDsAgCEP9dP+cSQvI5rzsYSdpQFtwycqM
+        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAACUSURBVDhPtZHbDsAgCEP9dP+cSQvI5rzsYSdpQFtwycqM
         WqtYe9RnxAzooB+AKVKaxHplvNcsRzowPbSqmjXdgIlID4TI4AdhauW5k333tDYFuPThp3zY/ZQD9FJo
         VpnlWXtMN+JyV5lFFwtwIOvqw/5rY8EX5aV2NwBTX1kJK+YLYG+rZjlyB+bbq1lY8dsXnKvIBaXh7su8
         x3VaAAAAAElFTkSuQmCC
@@ -368,7 +368,7 @@
   <data name="tsbQuery.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADbSURBVDhPvZDLEYMwDERdbVrgyoke3AYVUEBaoIMUwE3R
+        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAADbSURBVDhPvZDLEYMwDERdbVrgyoke3AYVUEBaoIMUwE3R
         ky0j88kkl+zMjmXL+yxI32qaJjm6tu4VL6/r2lnbnwGEtm07Bf8TRqzDMJipsbZ9vZaHCT1fYn7Uvbb1
         IMuyLBG4iwPGZiVIjSOEsEg2U2usQGL4CkCEyx70KQzQimpeIkDQw0xAzycgM8/zDvBGzsnMWRl0DwP2
         MPv2MI0IcZD/OFY+hQ/QbRuf1QBVtmkg/dtxopRGSXoUITVzUg9iImDqI6Rcv1cHwtS/QlAHKvvfIaiG
@@ -378,7 +378,7 @@
   <data name="tsbModifyPwd.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADpSURBVDhPlZLRFcMgCEX9cCN3yhyO0F9H6Ed3yABOkiUo
+        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAADpSURBVDhPlZLRFcMgCEX9cCN3yhyO0F9H6Ed3yABOkiUo
         D4FDoklP3zkvYuAipk0X0Q/falXszjnH/aSYdBv0eb+otxJzk2JSTH2jfd8lBoy95pZyEKcabBAmCDVL
         SdKgCMOYwK5Ra102kcIIH8chK8BSRk7rbjU1sdFtAsRtS7SxLeb1JIEBXK8BAyBq6rmJw3rPaBFOBmwT
         WBPkLPAmiKuaN1I0Jhi2WDl+8FSj1l+60QQrAHzQ3vl/obBOgwe/8iZny6/Aoxfe9MZNeI1w1GgijfAd
@@ -388,7 +388,7 @@
   <data name="tsbExit.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABjSURBVDhP3Y7bCsAwCEP9dP+8m8EOkbgM+rYDobd4qBWW
+        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAABjSURBVDhP3Y7bCsAwCEP9dP+8m8EOkbgM+rYDobd4qBWW
         iARFRr5JljuXxB0aAgiYJM5oCB5Bl8QeDcGfBLGPbPIsOfoBSl1AcuO5crqgEcM7M4OgDn+QZAjvg5Vj
         QWH6ttkFoOjaRyEtMCUAAAAASUVORK5CYII=
 </value>

@@ -6,13 +6,14 @@ using System.Threading.Tasks;
 
 using System.Data;
 using System.Data.SqlClient;
+using System.Configuration; //import configration files
 
 namespace DAL
 {
     //Common DAL
     public class SQLHelper
     {
-        private static string connString = "Server=.;DataBase=SMDB;Uid=sa;Pwd=sa";
+        public static string connString = ConfigurationManager.ConnectionStrings["connString"].ToString();  //connString the same as App.config's name
 
         //Operate add, delete, correct, query
         public static int Update(string sql)

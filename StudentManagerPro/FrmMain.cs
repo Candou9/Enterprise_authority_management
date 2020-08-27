@@ -15,7 +15,7 @@ namespace StudentManager
         public FrmMain()
         {
             InitializeComponent();
-           
+            MessageBox.Show(DAL.SQLHelper.connString);
         }    
 
         #region «∂»Î¥∞ÃÂœ‘ æ
@@ -119,8 +119,12 @@ namespace StudentManager
             System.Diagnostics.Process.Start("iexplore.exe", "https://ke.qq.com/course/59314");
         }
 
+
         #endregion
 
+        private void panelForm_Paint(object sender, PaintEventArgs e)
+        {
 
+        }
     }
 }
