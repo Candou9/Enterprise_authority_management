@@ -120,18 +120,18 @@
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="btnLogin.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsEAAA7BAbiRa+0AAABuSURBVDhPtZNbCgAhCEVduktzZ4aU3BimHG0Swo+8x0dG
-        dN9YieyUjFVEBqAEYTWzCgBKVQKhgQKI9/ruTbyBdNEc5MErPw0WfUai5/2AoM/jCjoxPYP98BwYDnCV
-        +bc9KK4zXii1fwg++kjfcjZX1ylL8OyPpwAAAABJRU5ErkJggg==
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wQAADsEBuJFr7QAAAGtJREFUOE+9kMkNwDAIBCmd0uiMaBVbkGB88PBIKz7M+qALsL4pwSoiraBUwgq+
+        RUeYCBYl/ZrjQJ6UxKXVdCX2TrAj99lK7J2z5f9sMrAbzJLIIC6PksggLvsAzERe4cVjGfj/KVE+eRei
+        B1fXKUsVc5C4AAAAAElFTkSuQmCC
 </value>
   </data>
   <data name="btnClose.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsEAAA7BAbiRa+0AAABnSURBVDhP5ZJBCgAgCAR7uj+vrCQx1+rSpQUhQgdXTWkq
-        12cUKtV/tmJPA7wHEPUOrK4AHuQaYCE/AuQeZBtPZtD2z9OXAFdZv4lzoSzAJHKxxAay+tbFBxA8uNiC
-        7gt4PQcoGPZeAKDo2kcUmhXDAAAAAElFTkSuQmCC
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wQAADsEBuJFr7QAAAGNJREFUOE/djtsKwDAIQ/10/7ybwQ6RuAz6tgOht3ioFZaIBEVGvkmWO5fEHRoC
+        CJgkzmgIHkGXxB4NwZ8EsY9s8iw5+gFKXUBy47lyuqARwzszg6AOf5BkCO+DlWNBYfq22QWg6NpHIS0w
+        JQAAAABJRU5ErkJggg==
 </value>
   </data>
   <data name="panel1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">

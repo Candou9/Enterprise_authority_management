@@ -15,7 +15,6 @@ namespace StudentManager
         public FrmMain()
         {
             InitializeComponent();
-            MessageBox.Show(DAL.SQLHelper.connString);
         }    
 
         #region «∂»Î¥∞ÃÂœ‘ æ
@@ -81,6 +80,8 @@ namespace StudentManager
         private void tsbAddStudent_Click(object sender, EventArgs e)
         {
             tsmiAddStudent_Click(null, null);
+            FrmAddStudent objForm = new FrmAddStudent();
+            objForm.Show();
         }
         private void toolStripButton1_Click(object sender, EventArgs e)
         {
@@ -123,6 +124,11 @@ namespace StudentManager
         #endregion
 
         private void panelForm_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void lblVersion_Click(object sender, EventArgs e)
         {
 
         }

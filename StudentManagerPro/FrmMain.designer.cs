@@ -54,10 +54,6 @@
             this.tsmi_about = new System.Windows.Forms.ToolStripMenuItem();
             this.系统课程SToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tms_GetCourse = new System.Windows.Forms.ToolStripMenuItem();
-            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
-            this.lblVersion = new System.Windows.Forms.ToolStripStatusLabel();
-            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.lblCurrentUser = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.tsbAddStudent = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
@@ -73,7 +69,6 @@
             this.panelForm = new System.Windows.Forms.Panel();
             this.lblTitle = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
-            this.statusStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.panelForm.SuspendLayout();
             this.SuspendLayout();
@@ -92,7 +87,7 @@
             this.系统课程SToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1488, 34);
+            this.menuStrip1.Size = new System.Drawing.Size(1488, 32);
             this.menuStrip1.TabIndex = 5;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -274,38 +269,6 @@
             this.tms_GetCourse.Text = "马上获取(&M)";
             this.tms_GetCourse.Click += new System.EventHandler(this.tms_GetCourse_Click);
             // 
-            // statusStrip1
-            // 
-            this.statusStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
-            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.lblVersion,
-            this.toolStripStatusLabel1,
-            this.lblCurrentUser});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 1019);
-            this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Padding = new System.Windows.Forms.Padding(2, 0, 21, 0);
-            this.statusStrip1.Size = new System.Drawing.Size(1488, 31);
-            this.statusStrip1.TabIndex = 6;
-            this.statusStrip1.Text = "statusStrip1";
-            // 
-            // lblVersion
-            // 
-            this.lblVersion.Name = "lblVersion";
-            this.lblVersion.Size = new System.Drawing.Size(125, 24);
-            this.lblVersion.Text = " 版本号：V2.0";
-            // 
-            // toolStripStatusLabel1
-            // 
-            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(147, 24);
-            this.toolStripStatusLabel1.Text = " [当前用登录户：";
-            // 
-            // lblCurrentUser
-            // 
-            this.lblCurrentUser.Name = "lblCurrentUser";
-            this.lblCurrentUser.Size = new System.Drawing.Size(70, 24);
-            this.lblCurrentUser.Text = "王晓军]";
-            // 
             // toolStrip1
             // 
             this.toolStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -320,7 +283,7 @@
             this.tsbModifyPwd,
             this.toolStripSeparator6,
             this.tsbExit});
-            this.toolStrip1.Location = new System.Drawing.Point(0, 34);
+            this.toolStrip1.Location = new System.Drawing.Point(0, 32);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Padding = new System.Windows.Forms.Padding(0, 0, 3, 0);
             this.toolStrip1.Size = new System.Drawing.Size(1488, 33);
@@ -413,7 +376,7 @@
             this.panelForm.Location = new System.Drawing.Point(36, 120);
             this.panelForm.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panelForm.Name = "panelForm";
-            this.panelForm.Size = new System.Drawing.Size(1426, 974);
+            this.panelForm.Size = new System.Drawing.Size(1426, 690);
             this.panelForm.TabIndex = 8;
             this.panelForm.Paint += new System.Windows.Forms.PaintEventHandler(this.panelForm_Paint);
             // 
@@ -434,10 +397,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1488, 1050);
+            this.ClientSize = new System.Drawing.Size(1488, 766);
             this.Controls.Add(this.panelForm);
             this.Controls.Add(this.toolStrip1);
-            this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
@@ -448,8 +410,6 @@
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            this.statusStrip1.ResumeLayout(false);
-            this.statusStrip1.PerformLayout();
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
             this.panelForm.ResumeLayout(false);
@@ -470,9 +430,6 @@
         private System.Windows.Forms.ToolStripMenuItem tsmiManageStudent;
         private System.Windows.Forms.ToolStripMenuItem 成绩管理ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem tsmiQueryAndAnalysis;
-        private System.Windows.Forms.StatusStrip statusStrip1;
-        private System.Windows.Forms.ToolStripStatusLabel lblCurrentUser;
-        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripMenuItem tsmiQuery;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
@@ -486,7 +443,6 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator6;
         private System.Windows.Forms.ToolStripButton tsbExit;
-        private System.Windows.Forms.ToolStripStatusLabel lblVersion;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.ToolStripButton tsbQuery;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;

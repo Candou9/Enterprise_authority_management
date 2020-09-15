@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
+using Models;
 
 
 namespace StudentManager
@@ -17,9 +18,20 @@ namespace StudentManager
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            Application.Run(new FrmMain());
+            //Display login form
+            FrmUserLogin objLoginForm = new FrmUserLogin();
+            DialogResult result = objLoginForm.ShowDialog();
+
+            //Determine if the login was successful
+            if (result == DialogResult.OK)
+                Application.Run(new FrmMain());
+            else
+                Application.Exit(); //Exit the entire application
 
         }
+
+        //Global variable
+        public static Admin currentAdmin = null;
 
     }
 }

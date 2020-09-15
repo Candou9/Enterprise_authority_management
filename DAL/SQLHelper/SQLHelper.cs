@@ -13,7 +13,7 @@ namespace DAL
     //Common DAL
     public class SQLHelper
     {
-        public static string connString = ConfigurationManager.ConnectionStrings["connString"].ToString();  //connString the same as App.config's name
+        private static string connString = ConfigurationManager.ConnectionStrings["connString"].ToString();  //connString the same as App.config's name
 
         //Operate add, delete, correct, query
         public static int Update(string sql)

@@ -32,7 +32,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txtLoginId = new System.Windows.Forms.TextBox();
-            this.txLoginPwd = new System.Windows.Forms.TextBox();
+            this.txtLoginPwd = new System.Windows.Forms.TextBox();
             this.btnLogin = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -41,45 +41,50 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(240, 32);
+            this.label1.Location = new System.Drawing.Point(360, 53);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(65, 12);
+            this.label1.Size = new System.Drawing.Size(81, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "登录账号：";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(240, 79);
+            this.label2.Location = new System.Drawing.Point(360, 132);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(65, 12);
+            this.label2.Size = new System.Drawing.Size(81, 20);
             this.label2.TabIndex = 0;
             this.label2.Text = "登录密码：";
             // 
             // txtLoginId
             // 
-            this.txtLoginId.Location = new System.Drawing.Point(310, 29);
+            this.txtLoginId.Location = new System.Drawing.Point(465, 48);
+            this.txtLoginId.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtLoginId.Name = "txtLoginId";
-            this.txtLoginId.Size = new System.Drawing.Size(135, 21);
+            this.txtLoginId.Size = new System.Drawing.Size(200, 26);
             this.txtLoginId.TabIndex = 0;
             this.txtLoginId.Text = "1001";
-          
-            // txLoginPwd
             // 
-            this.txLoginPwd.Location = new System.Drawing.Point(310, 75);
-            this.txLoginPwd.Name = "txLoginPwd";
-            this.txLoginPwd.PasswordChar = '*';
-            this.txLoginPwd.Size = new System.Drawing.Size(135, 21);
-            this.txLoginPwd.TabIndex = 1;
-            this.txLoginPwd.Text = "123456";
-           
+            // txtLoginPwd
+            // 
+            this.txtLoginPwd.Location = new System.Drawing.Point(465, 125);
+            this.txtLoginPwd.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtLoginPwd.Name = "txtLoginPwd";
+            this.txtLoginPwd.PasswordChar = '*';
+            this.txtLoginPwd.Size = new System.Drawing.Size(200, 26);
+            this.txtLoginPwd.TabIndex = 1;
+            this.txtLoginPwd.Text = "123456";
+            // 
             // btnLogin
             // 
             this.btnLogin.Image = ((System.Drawing.Image)(resources.GetObject("btnLogin.Image")));
             this.btnLogin.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLogin.Location = new System.Drawing.Point(279, 120);
+            this.btnLogin.Location = new System.Drawing.Point(418, 200);
+            this.btnLogin.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(75, 23);
+            this.btnLogin.Size = new System.Drawing.Size(112, 38);
             this.btnLogin.TabIndex = 2;
             this.btnLogin.Text = "登  录";
             this.btnLogin.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -90,9 +95,10 @@
             // 
             this.btnClose.Image = ((System.Drawing.Image)(resources.GetObject("btnClose.Image")));
             this.btnClose.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnClose.Location = new System.Drawing.Point(370, 120);
+            this.btnClose.Location = new System.Drawing.Point(555, 200);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(75, 23);
+            this.btnClose.Size = new System.Drawing.Size(112, 38);
             this.btnClose.TabIndex = 3;
             this.btnClose.Text = "退  出";
             this.btnClose.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -103,26 +109,28 @@
             // 
             this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel1.Location = new System.Drawing.Point(12, 12);
+            this.panel1.Location = new System.Drawing.Point(18, 20);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(217, 163);
+            this.panel1.Size = new System.Drawing.Size(326, 272);
             this.panel1.TabIndex = 4;
             // 
             // FrmUserLogin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ClientSize = new System.Drawing.Size(468, 187);
+            this.ClientSize = new System.Drawing.Size(702, 312);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnLogin);
-            this.Controls.Add(this.txLoginPwd);
+            this.Controls.Add(this.txtLoginPwd);
             this.Controls.Add(this.txtLoginId);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FrmUserLogin";
@@ -138,7 +146,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtLoginId;
-        private System.Windows.Forms.TextBox txLoginPwd;
+        private System.Windows.Forms.TextBox txtLoginPwd;
         private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.Panel panel1;
