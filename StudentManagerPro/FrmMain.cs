@@ -17,40 +17,40 @@ namespace StudentManager
             InitializeComponent();
         }    
 
-        #region Ç¶Èë´°ÌåÏÔÊ¾
+        #region Ç¶ï¿½ë´°ï¿½ï¿½ï¿½ï¿½Ê¾
 
      
-        //ÏÔÊ¾Ìí¼ÓÐÂÑ§Ô±´°Ìå       
+        //ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½ï¿½Ñ§Ô±ï¿½ï¿½ï¿½ï¿½       
         private void tsmiAddStudent_Click(object sender, EventArgs e)
         {          
             FrmAddStudent objForm = new FrmAddStudent();
           
         }
-        //¿¼ÇÚ´ò¿¨      
+        //ï¿½ï¿½ï¿½Ú´ï¿½      
         private void tsmi_Card_Click(object sender, EventArgs e)
         {
             //FrmAttendance objForm = new FrmAttendance();
             
         }
-        //³É¼¨¿ìËÙ²éÑ¯¡¾Ç¶ÈëÏÔÊ¾¡¿
+        //ï¿½É¼ï¿½ï¿½ï¿½ï¿½Ù²ï¿½Ñ¯ï¿½ï¿½Ç¶ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½ï¿½
         private void tsmiQuery_Click(object sender, EventArgs e)
         {
           //  FrmScoreQuery objForm = new FrmScoreQuery();
             
         }
-        //Ñ§Ô±¹ÜÀí¡¾Ç¶ÈëÏÔÊ¾¡¿
+        //Ñ§Ô±ï¿½ï¿½ï¿½ï¿½ï¿½Ç¶ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½ï¿½
         private void tsmiManageStudent_Click(object sender, EventArgs e)
         {
            // FrmStudentManage objForm = new FrmStudentManage();
            
         }
-        //ÏÔÊ¾³É¼¨²éÑ¯Óë·ÖÎö´°¿Ú    
+        //ï¿½ï¿½Ê¾ï¿½É¼ï¿½ï¿½ï¿½Ñ¯ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½    
         private void tsmiQueryAndAnalysis_Click(object sender, EventArgs e)
         {
             FrmScoreManage objForm = new FrmScoreManage();
             //
         }
-        //¿¼ÇÚ²éÑ¯
+        //ï¿½ï¿½ï¿½Ú²ï¿½Ñ¯
         private void tsmi_AQuery_Click(object sender, EventArgs e)
         {
             FrmAttendanceQuery objForm = new FrmAttendanceQuery();
@@ -58,9 +58,9 @@ namespace StudentManager
         }
         #endregion
 
-        #region ÍË³öÏµÍ³È·ÈÏ
+        #region ï¿½Ë³ï¿½ÏµÍ³È·ï¿½ï¿½
 
-        //ÍË³öÏµÍ³
+        //ï¿½Ë³ï¿½ÏµÍ³
         private void tmiClose_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -68,9 +68,9 @@ namespace StudentManager
 
         #endregion
 
-        #region ÆäËû
+        #region ï¿½ï¿½ï¿½ï¿½
 
-        //ÃÜÂëÐÞ¸Ä
+        //ï¿½ï¿½ï¿½ï¿½ï¿½Þ¸ï¿½
         private void tmiModifyPwd_Click(object sender, EventArgs e)
         {
             FrmModifyPwd objPwd = new FrmModifyPwd();
@@ -104,7 +104,7 @@ namespace StudentManager
             tsmiQuery_Click(null, null);
         }   
      
-        //·ÃÎÊ¹ÙÍø
+        //ï¿½ï¿½ï¿½Ê¹ï¿½ï¿½ï¿½
         private void tsmi_linkxkt_Click(object sender, EventArgs e)
         {
             System.Diagnostics.Process.Start("iexplore.exe", "http://www.xiketang.com");
