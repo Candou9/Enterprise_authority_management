@@ -1,8 +1,0 @@
-C:\Users\98738\Desktop\StudentManagerPro\DAL\bin\Debug\DAL.dll
-C:\Users\98738\Desktop\StudentManagerPro\DAL\bin\Debug\DAL.pdb
-C:\Users\98738\Desktop\StudentManagerPro\DAL\bin\Debug\Models.dll
-C:\Users\98738\Desktop\StudentManagerPro\DAL\bin\Debug\Models.pdb
-C:\Users\98738\Desktop\StudentManagerPro\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
-C:\Users\98738\Desktop\StudentManagerPro\DAL\obj\Debug\DAL.csproj.CopyComplete
-C:\Users\98738\Desktop\StudentManagerPro\DAL\obj\Debug\DAL.dll
-C:\Users\98738\Desktop\StudentManagerPro\DAL\obj\Debug\DAL.pdb
